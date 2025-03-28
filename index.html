@@ -7,18 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Website | CodingNepal</title>
     <!-- Linking Font Awesome for icons -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="code.css">
 </head>
 
 <body>
+
     <!--Header / Navbar-->
     <header>
-        <nav class="navbar">
+        <nav class="navbar section-content">
             <a href="#" class="nav-logo">
                 <h2 class="logo-text">🤓 Phương Pháp học </h2>
             </a>
             <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
                 <li class="nav-item"><a href="#tu-nhien" class="nav-link">Tự nhiên</a></li>
                 <li class="nav-item"><a href="#xa-hoi" class="nav-link">Xã hội</a></li>
                 <li class="nav-item"><a href="#loi" class="nav-link">Đánh giá</a></li>
@@ -26,8 +29,8 @@
                 <li class="nav-item"><a href="#trao-doi" class="nav-link">Trao đổi</a></li>
             </ul>
 
-
             <button id="menu-open-button" class="fas fa-bars"></button>
+
 
 
 
@@ -35,6 +38,7 @@
     </header>
 
     <main>
+        <script src="style.js"></script>
         <!-- Hero section -->
         <section class="hero-section">
             <div class="section-content">
@@ -45,8 +49,9 @@
                         Chào mừng bạn đến với Wedsite - Yagi sẽ cung cấp cho bạn câu trả lời ấy
                     </p>
                     <div class="buttons">
-                        <a href="#" class="button Tu-hoc">Kĩ Năng</a>
-                        <a href="#" class="button Ki-Nang">tự học</a>
+                        <a href="#" class="button tu-hoc">tự học</a>
+
+                        <a href="#" class="button Ki-Nang">mỗi ngày</a>
                     </div>
                 </div>
                 <div class="hero-image-wrapper">
@@ -59,11 +64,11 @@
     </main>
 
     <section class="education" id="tu-nhien">
-        <h2 class="heading">My <span> Journet</span></h2>
+        <h2 class="heading">Phương <span> Pháp</span></h2>
 
         <div class="education-row">
             <div class="education-column">
-                <h3 class="title">Education</h3>
+                <h3 class="title">Môn học</h3>
 
                 <div class="education-box">
                     <div class="education-content">
@@ -86,8 +91,11 @@
                             <div class="year"><i class='bx bxs-calendar'></i> Hóa Học</div>
                             <h3>Phương Pháp Học</h3>
                             <p> Cách 1 : mở mục lục rồi kiệt kê những chương chưa nắm chắc kiến thức </p>
+
                             <p> Cách 2 : Nắm bắt được bài trước - mới học bài sau </p>
-                            <p> Cách 3 : In Focraphic : Trình bày ,khái quát sau mỗi bữa học dành khoảng 25-30p để vẽ kiến thức</p>
+                            <p> Cách 3 : Bổ sung đầy đủ kiến thức bị hỏng </p>
+                            <p> Cách 4 : Làm bài tập thường xuyên, theo chủ đề</p>
+                            <p>Cách 5 : Sử dụng sơ đồ tư duy hệ thông kiến thức lí thuyết và công thức theo từng bài </p>
                             </p>
                         </div>
                     </div>
@@ -97,7 +105,10 @@
                             <h3>Phương Pháp Học</h3>
                             <p> Cách 1 : nắm rõ lý thuyết bản chất cơ bảng </p>
                             <p> Cách 2 : nghe giảng ,ghi một số vấn đề chính ,nếu khó hiểu phải hỏi gv chỉ lại </p>
-                            <p> Cách 3 : kiệt kê ,hệ thống các móc thời gian và chuỗi sự kiện xảy ra trong thời điểm đó </p>
+                            <p> Cách 3 : hệ thống lí thuyết bằng sơ đò tư duy</p>
+                            <p> Cách 4 : học lí thuyết kết hợp video thực tế</p>
+                            <p> Cách 5 : liên hệ từ lí thuyết ra thực tiễn</p>
+
 
                         </div>
                     </div>
@@ -105,7 +116,7 @@
             </div>
 
             <div class="education-column">
-                <h3 class="title">Education</h3>
+                <h3 class="title">Tiện ích</h3>
 
                 <div class="education-box">
                     <div class="education-content">
@@ -132,8 +143,11 @@
                             <p> Khung Giờ </p>
                             <p> 2h-6h30 tối</p>
                             <p> Lỗi sai thường gặp</p>
-                            <p> Cách khắc phục</p>
+                            <p>có lỗ hỏng kiến thức từ trước mà không học lại</p>
+                            <p> vừa ghi vừa nghe giảng</p>
+                            <p> không thuộc lí thuyết</p>
                             <p> Công cụ tiện ích</p>
+                            <p> Wedsite : hoctap.dvtienich.com</p>
                         </div>
                     </div>
                     <div class="education-content">
@@ -143,7 +157,6 @@
                             <p> Khung Giờ </p>
                             <p> 2h-6h30 tối</p>
                             <p> Lỗi sai thường gặp</p>
-                            <p> Cách khắc phục</p>
                             <p> Công cụ tiện ích</p>
                             </p>
                         </div>
@@ -156,18 +169,24 @@
     </section>
 
     <section class="education" id="xa-hoi">
-        <h2 class="heading">My <span> Journet</span></h2>
+        <h2 class="heading">Phương <span> Pháp</span></h2>
 
         <div class="education-row">
             <div class="education-column">
-                <h3 class="title">Education</h3>
+                <h3 class="title">Môn học</h3>
 
                 <div class="education-box">
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i> Anh Văn</div>
                             <h3>Phương Pháp Học</h3>
-                            <p> Cách 1 : In Focraphic : Trình bày ,khái quát sau mỗi bữa học dành khoảng 25-30p để vẽ kiến thức Học Công Thức : Flash cand Mặt trước câu hỏi ,mặt sau câu trả lời </p>
+                            <p> Cách 1 : Một dùng những từ ngữ có sẵn để xây dựng nên từ mới </p>
+                            <p>Cách 2 : Grab A Ren Follow "the 5WslS"</p>
+                            <p>Cách 3 : SR Speak Now Xem video những câu nói rồi bắt chước nói theo câu</p>
+                            <p>Cách 4 : Câu hỏi what,where, when,who,why,how Học từ nối để viết đoạn văn </p>
+                            <p>Cách 5 : Tạo môi trường tiếng anh xung quanh</p>
+                            <p>Cách 6 : Học ngữ pháp và từ vựng qua ví dụ thực tế</p>
+                            <p>Cách 7 : học từ vựng theo chủ đề, ngữ cảnh</p>
 
 
 
@@ -178,14 +197,32 @@
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i> Ngữ Văn</div>
                             <h3>Phương Pháp Học</h3>
-                            <p> Cách 1 : In Focraphic : Trình bày ,khái quát sau mỗi bữa học dành khoảng 25-30p để vẽ kiến thức Học Công Thức : Flash cand Mặt trước câu hỏi ,mặt sau câu trả lời </p>
+                            <p>Xem các bài phân tích văn học, tham khảo dàn ý mẫu
+                            </p>
+                            <p>Luyện viết đoạn văn, bài nghị luận xã hội và nghị luận văn học</p>
+
+                            <p>1 : Đối với đọc hiểu </p>
+                            <p>Phân tích câu hỏi chia là 2 vế để trả lời Trả lời theo từng phần các ý ngắn gọn đủ ý Làm theo trình tự ,các phần đã được đặt </p>
+                            <p>2 : Phần làm văn </p>
+                            <p>Nắm dàn bài , triển khai các ý chính đã được đưa vào từ trước </p>
+                            <p>Từng ngày xem các câu văn hay để thêm vào bài văn của mình</p>
+                            <p>Viết theo chủ đề cụ thể : viết các bài theo chủ đề để dễ nhớ hơn, so sánh các tác phẩm nhớ lâu hơn</p>
+                            <p>Trao dồi vốn từ và cách diễn đạt Luyện viết nhật ký, cảm nhận theo đa chiều , đọc các sách theo chủ đề khác nhau</p>
                         </div>
                     </div>
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i> Sử</div>
                             <h3>Phương Pháp Học</h3>
-                            <p> Cách 1 : In Focraphic : Trình bày ,khái quát sau mỗi bữa học dành khoảng 25-30p để vẽ kiến thức Học Công Thức : Flash cand Mặt trước câu hỏi ,mặt sau câu trả lời </p>
+                            <p>Cách 1 : Xem phim tài liệu</p>
+                            <p>Cách 2 : Tóm tắt các sự kiện bằng sơ đồ tư duy</p>
+                            <P>Cách 3 : Học theo móc thời gian, và so sánh bảng</P>
+                            <p>Cách 4 : Tạo 1 móc thời gian với các móc sự kiện quan trọng ngắn gọn dễ nhớ </p>
+                            <p>Cách 5 : Dùng bản đồ lịch sử để xác định vị trí chiến trường, đường hành quân</p>
+                            <p>Cách 6 : Học qua phim tài liệu, tranh ảnh, bản đồ lịch sử</p>
+                            <p>Cách 7 : Liên hệ sự kiện lịch sử với thực tế</p>
+
+
 
                             </p>
                         </div>
@@ -194,16 +231,28 @@
             </div>
 
             <div class="education-column">
-                <h3 class="title">Education</h3>
+                <h3 class="title">Tiện ích</h3>
 
                 <div class="education-box">
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i> Anh Văn</div>
                             <h3>Khung giờ - Lỗi sai</h3>
+                            <p>1. Sáng sớm (5:00 - 7:00 AM) - Tập trung cao, nhớ lâu</p>
+                            <p>2. Buổi sáng (8:00 - 11:00 AM) - Học kiến thức mới</p>
+                            <p>3. Buổi chiều (2:00 - 5:00 PM) - Thực hành kỹ năng</p>
+                            <p>4. Buổi tối (7:00 - 10:00 PM) - Ôn tập và thư giãn
+                            </p>
+
+
 
                             <p> Lỗi sai thường gặp</p>
+                            <p>Chỉ tập trung vào một kĩ năng</p>
+                            <p>Sợ sai không dám nói </p>
+                            <p>Học thụ động không thực hành nhiều</p>
+                            <p>Học từ vựng đơn lẻ mà không theo chủ đề</p>
                             <p> Công cụ tiện ích</p>
+                            <p>Từ điển LongMan ,advanced Learner's, British Council</p>
                             </p>
                         </div>
                     </div>
@@ -213,8 +262,14 @@
                             <div class="year"><i class='bx bxs-calendar'></i> Ngữ Văn</div>
                             <h3>Khung giờ - Lỗi sai</h3>
 
-                            <p> Lỗi sai thường gặp</p>
+                            <p> Khung giờ</p>
+                            <p>1. Sáng sớm (5:00 - 7:00 AM) – Ghi nhớ và tư duy sáng tạo</p>
+                            <p>2. Buổi sáng (8:00 - 11:00 AM) – Tiếp thu bài mới, phân tích văn bản
+                            </p>
+                            <p>3. Buổi chiều (2:00 - 5:00 PM) – Luyện kỹ năng viết và làm bài tập</p>
+                            <p>4. Buổi tối (7:00 - 10:00 PM) – Ôn tập nhẹ nhàng, đọc tài liệu mở rộng</p>
                             <p> Công cụ tiện ích</p>
+                            <p> Wedsite : Học ngữ văn, học văn chị Hiên, Học văn cô Sương Mai , Học mãi</p>
 
                             </p>
                         </div>
@@ -223,8 +278,15 @@
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i> Sử</div>
                             <h3>Khung giờ - Lỗi sai</h3>
+                            <p>Khung giờ</p>
+                            <p>1. Sáng sớm (5:00 - 7:00 AM) – Ghi nhớ sự kiện quan trọng</p>
+                            <p>2. Buổi sáng (8:00 - 11:00 AM) – Đọc hiểu, phân tích sự kiện lịch sử</p>
+                            <p>3. Buổi chiều (2:00 - 5:00 PM) – Ôn tập và làm bài tập trắc nghiệm</p>
+                            <p>4. Buổi tối (7:00 - 10:00 PM) – Ôn lại và xem tài liệu tham khảo</p>
+
 
                             <p> Lỗi sai thường gặp</p>
+                            <p> học vẹt mà không hiểu ý </p>
                             <p> Công cụ tiện ích</p>
                             </p>
                         </div>
@@ -240,47 +302,55 @@
 
     <!-- contact section design-->
     <section class="contact" id="loi">
-        <h2 class="heading"> Contact <span> Me! </span></h2>
+        <h2 class="heading"> Liên <span> Hệ! </span></h2>
 
         <form action="#">
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" placeholder="Họ và Tên" required>
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="text" placeholder="Email Address" required>
+                    <input type="text" placeholder="Email " required>
                     <span class="focus"></span>
                 </div>
             </div>
 
             <div class="input-box">
                 <div class="input-field">
-                    <input type="number" placeholder="Mobile Number" required>
+                    <input type="number" placeholder="Số điện thoại" required>
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="text" placeholder="Email Subject" required>
+                    <input type="text" placeholder="Địa chỉ" required>
                     <span class="focus"></span>
                 </div>
             </div>
 
             <div class="textarea-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Tin nhắn của bạn" required></textarea>
                 <span class="focus"></span>
             </div>
             <div class="btn-box btns">
-                <button type="submit" class="btn">Submit</button>
+                <button type="submit" class="btn">Gửi</button>
             </div>
         </form>
     </section>
 
+    <section class="social-section">
+        <div class="social-container">
+            <h2 class="social-title">Mạng xã hội</h2>
+
+            <a href="https://www.facebook.com/share/1JvE1uY2xW/" class="privacy-button" target="_blank">
+                <i class="fab fa-facebook-f"></i> Kết nối với chúng tôi
+            </a>
+        </div>
     </section>
 
-    <script>
-        src = "style.js"
-    </script>
 
+
+    <scrip src="style.js">
+        </script>
 
 </body>
 

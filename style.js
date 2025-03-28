@@ -6,8 +6,11 @@ menuOpenButton.addEventListener("click", () => {
     document.body.classList.toggle("show-mobile-menu");
 });
 
+// Close menu when the close button is clicked
+menuCloseButton.addEventListener("click", () => menuOpenButton.click());
+
 window.scrollTo({
-    top: targetSection.offsetTop - document.querySelector('.navbar').offsetHeight,
+    top: targetSection.offsetTop - document.querySelector('.navbar section-content').offsetHeight,
     behavior: 'smooth'
 });
 
